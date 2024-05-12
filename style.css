@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: inter_regular, fallback-inter_regular, Arial, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background-color: #f1f2f4;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+.cantainer{
+    max-width: 1364px;
+    margin: auto;
+}
+
+#header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #474748;
+    padding: 16px 28px;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 160px;
+}
+
+.search_cantainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 550px;
+    min-width: 300px;
+    width: 550px;
+    height: 4rem;
+    margin: 0 1rem 0 3rem;
+    border-radius: 8px;
+    padding: 0 10px;
+    background-color: #f0f5ff;
+}
+
+.search_cantainer i{
+    font-size: 18px;
+    color: #414040;
+    font-weight: 300;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.search_cantainer input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 1px 0px 1px 10px;
+    background-color: #f0f5ff;
+    border-radius: 8px;
+}
+
+#header nav{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-right: 0.5rem;
+}
+
+.menu{
+    font-size: 15px;
+    color: #000;
+    font-weight: 300;
+}
+
+.text{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center
+}
+
+.user i{
+    font-size: 12px;
+    padding: 0 7px;
+}
+
+.cart{
+    font-size: 18px;
+    color: #000;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.hiconcss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+/* ============================== */
+
+/* catogory section strat  */
+
+.catagory{
+    height: 126px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+.cart-img{
+    margin-bottom: 14px;
+}
+
+.cartimginfo p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.slider-container{
+    margin: 10px;
+    height: 40vh;
+}
+
+.slide{
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/43641aadc90e8dfd.png?q=20);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.break{
+    width: 100%;
+}
+
+.img-slide{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-arrow{
+    border-radius: 0 6px 6px 0;
+}
+
+.right-arrow{
+    border-radius: 6px 0 0 6px;
+}
+
+.arrow{
+    width: 5rem;
+    height: 10rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow i{
+    font-size: 14px;
+    opacity: .6;
+}
+
+/* .sbi{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbi-img img{
+    height: 18vh;
+} */
+
+
+#Best_of{
+    width: 100vw;
+    height: 50vh;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.first_product_section{
+    width: 100%;
+    height: 100%;
+}
+
+.first_product_section h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.best_products_container{
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    padding: 2rem;
+    background: white;
+    justify-content: space-around;
+}
+
+.box-1{
+    width: 14vw;
+    height: 20rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    height: 22rem;
+    align-items: center;
+}
+.perfect{
+    width: 18rem;
+    height: 80%;
+}
+
+.img-box img{
+    height: 80%;
+}
